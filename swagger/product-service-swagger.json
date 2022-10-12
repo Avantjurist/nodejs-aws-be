@@ -1,0 +1,82 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+      "title": "defaultTitle",
+      "description": "defaultDescription",
+      "version": "0.1"
+    },
+    "servers": [
+      {
+        "url": "https://mjz42irhng.execute-api.eu-west-1.amazonaws.com"
+      }
+    ],
+    "paths": {
+      "/dev/products/80d20061-79fe-4b9e-bbf7-c483eb2f63be": {
+        "get": {
+          "description": "Auto generated using Swagger Inspector",
+          "responses": {
+            "200": {
+              "description": "Auto generated using Swagger Inspector",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/inline_response_200"
+                  },
+                  "examples": {
+                    "0": {
+                      "value": "{\"uuid\":\"80d20061-79fe-4b9e-bbf7-c483eb2f63be\",\"name\":\"first-product\"}"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "servers": [
+            {
+              "url": "https://mjz42irhng.execute-api.eu-west-1.amazonaws.com"
+            }
+          ]
+        },
+        "servers": [
+          {
+            "url": "https://mjz42irhng.execute-api.eu-west-1.amazonaws.com"
+          }
+        ]
+      },
+      "/dev/products": {
+        "get": {
+          "description": "Auto generated using Swagger Inspector",
+          "responses": {
+            "default": {
+              "description": "Auto generated using Swagger Inspector"
+            }
+          },
+          "servers": [
+            {
+              "url": "https://mjz42irhng.execute-api.eu-west-1.amazonaws.com"
+            }
+          ]
+        },
+        "servers": [
+          {
+            "url": "https://mjz42irhng.execute-api.eu-west-1.amazonaws.com"
+          }
+        ]
+      }
+    },
+    "components": {
+      "schemas": {
+        "inline_response_200": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "uuid": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
